@@ -18,7 +18,7 @@ mem_list = ['https://pp.userapi.com/c850616/v850616599/cc098/tGTdT6FfQLU.jpg','h
 
 @bot.message_handler(commands=['mem'])
 def lession(message):
-    bot.send_photo(chat_id=443890938, photo=mem_list[random.randrange(1, 5, 1)])
+    bot.send_photo(chat_id=443890938, photo=mem_list[random.randrange(1, 4, 1)])
     bot.send_photo(443890938, "Faild")
 
 @bot.message_handler(func=lambda message: True)
