@@ -1,14 +1,14 @@
 import telebot
 import random
-import os
+"import os"
 
-from telebot.types import Message
-from telebot import apihelper
+"from telebot.types import Message"
+"from telebot import apihelper"
 
 TOKEN = '795191972:AAEu6KR0CknC6GXBN2znA3DItqYd9dGCVdQ'
-PROXY = os.environ.get('PROXY')
+"PROXY = os.environ.get('PROXY')"
 
-apihelper.proxy={'https': PROXY}
+"apihelper.proxy={'https': PROXY}"
 
 bot = telebot.TeleBot(TOKEN)
 
